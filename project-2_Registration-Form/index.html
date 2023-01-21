@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+        <h1>Register Here</h1>
+        <form action="index.php">
+            <label for="fname">
+                <font size="4">
+                    First Name:
+                </font>
+            </label>
+            <input type="text" id="fname" name="fname" placeholder="enter your first name">
+            <br><br>
+            <label for="lname">
+                <font size="4">
+                    Last Name:
+                </font>
+            </label>
+            <input type="text" id="lname" name="lname" placeholder="enter your last name">
+            <br><br>
+            <label>
+                <font size="4">Gender:</font>
+            </label>
+            <br>
+            <input type="radio" value="Male">
+            <label>Male</label><br>
+            <input type="radio" value="Female">
+            <label>Female</label><br>
+            <input type="radio" value="Other">
+            <label>Other</label>
+            <br><br>
+            <label>
+                <font size="4">Phone No. : </font>
+            </label>
+            <input type="tel" value="+91" size="1" disabled>
+            <input type="tel" pattern="[0-9]{10}" size="10" placeholder="xxxxx xxxxx">
+            <br><br>
+            <label>
+                <font size="4">Date of birth:</font>
+            </label>
+            <input type="date">
+            <br><br>
+            <label>
+                <font size="4">Address:</font>
+            </label>
+            <br>
+            <textarea cols="30" rows="2" placeholder="current addresss"></textarea>
+            <br><br>
+            <label>
+                <font size="4">State:</font>
+            </label>
+            <input type="text" placeholder="enter your state">
+            <br><br>
+            <label>
+                <font size="4">City:</font>
+            </label>
+            <input type="text" placeholder="enter your city">
+            <br><br>
+            <label>
+                <font size="4">Area Pin:</font>
+            </label>
+            <input type="text" placeholder="enter your pin">
+            <br><br>
+            <label>
+                <font size="4">Qualification:</font>
+            </label>
+            <select name="qualification" id="qualification">
+                <option value="select">Select</option>
+                <option value="select">Matriculation</option>
+                <option value="select">Standard 12th Diploma</option>
+                <option value="select">Bachelor's Degree</option>
+                <option value="select">Postgraduate Diploma</option>
+            </select>
+            <br><br>
+            <label>
+                <font size="4">Specialisation:</font>
+            </label>
+            <br>
+            <input type="checkbox">
+            <label>Date Science</label><br>
+            <input type="checkbox">
+            <label>Big Data</label><br>
+            <input type="checkbox">
+            <label>Cloud Computing</label><br>
+            <input type="checkbox">
+            <label>Blockchain</label>
+            <br><br>
+            <label for="">
+                <font size="4">Email:</font>
+            </label>
+            <input type="email" placeholder="enter your email">
+            <br><br>
+            <label for="">
+                <font size="4">Password:</font>
+            </label>
+            <input type="password" placeholder="enter a password">
+            <br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+</body>
+</html>
