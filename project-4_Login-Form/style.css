@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section {
+    display: grid;
+    margin: 10rem auto;
+    max-width: 500px;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+section .heading {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: xxx-large;
+    background: linear-gradient(to top right, #3399ff 0%, #ff00ff 100%);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 25px 25px 0px 0px;
+}
+
+form {
+    margin: auto;
+}
+
+form .detail {
+    padding: 0.7rem;
+    margin: 1rem;
+    width: 380px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid rgb(206, 206, 206);
+    font-size: 15.5px;
+}
+
+.btn {
+    background: linear-gradient(to top right, #3399ff 0%, #ff00ff 100%);
+    margin: 1.5rem;
+    padding: 0.7rem;
+    border-radius: 50px;
+    border: none;
+    width: 380px;
+    color: white;
+    font-size: 25px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(179, 2, 255);
+}
